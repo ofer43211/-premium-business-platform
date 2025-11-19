@@ -1,0 +1,21 @@
+{
+  "name": "@premium-platform/mobile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "React Native mobile application",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:e2e:ios": "detox test --configuration ios.sim.debug",
+    "test:e2e:android": "detox test --configuration android.emu.debug"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.73.2",
+    "@react-native-firebase/app": "^19.0.1",
+    "@react-native-firebase/messaging": "^19.0.1",
+    "react-i18next": "^14.0.1",
+    "i18next": "^23.7.16"
+  }
+}
