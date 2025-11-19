@@ -1,0 +1,229 @@
+{
+  "common": {
+    "appName": "פלטפורמת עסקים פרימיום",
+    "welcome": "ברוכים הבאים",
+    "loading": "טוען...",
+    "error": "שגיאה",
+    "success": "הצלחה",
+    "submit": "שלח",
+    "cancel": "ביטול",
+    "save": "שמור",
+    "delete": "מחק",
+    "edit": "ערוך",
+    "create": "צור",
+    "update": "עדכן",
+    "search": "חיפוש",
+    "filter": "סנן",
+    "close": "סגור",
+    "back": "חזור",
+    "next": "הבא",
+    "previous": "הקודם",
+    "confirm": "אשר",
+    "yes": "כן",
+    "no": "לא",
+    "retry": "נסה שוב",
+    "refresh": "רענן",
+    "learnMore": "למד עוד",
+    "getStarted": "התחל עכשיו"
+  },
+  "auth": {
+    "login": "התחבר",
+    "logout": "התנתק",
+    "signup": "הרשם",
+    "forgotPassword": "שכחת סיסמה?",
+    "resetPassword": "אפס סיסמה",
+    "changePassword": "שנה סיסמה",
+    "email": "כתובת דוא\"ל",
+    "password": "סיסמה",
+    "confirmPassword": "אימות סיסמה",
+    "rememberMe": "זכור אותי ל-30 יום",
+    "dontHaveAccount": "אין לך חשבון?",
+    "alreadyHaveAccount": "כבר יש לך חשבון?",
+    "loginSuccess": "התחברת בהצלחה!",
+    "logoutSuccess": "התנתקת בהצלחה",
+    "signupSuccess": "החשבון נוצר בהצלחה!",
+    "passwordResetSent": "נשלח מייל לאיפוס סיסמה",
+    "passwordChanged": "הסיסמה שונתה בהצלחה",
+    "errors": {
+      "invalidEmail": "כתובת דוא\"ל לא תקינה",
+      "invalidCredentials": "דוא\"ל או סיסמה שגויים",
+      "emailRequired": "נדרש דוא\"ל",
+      "passwordRequired": "נדרשת סיסמה",
+      "passwordTooShort": "הסיסמה חייבת להכיל לפחות 8 תווים",
+      "passwordsDoNotMatch": "הסיסמאות אינן תואמות",
+      "emailAlreadyExists": "כבר קיים חשבון עם דוא\"ל זה",
+      "accountNotFound": "החשבון לא נמצא",
+      "tooManyAttempts": "יותר מדי ניסיונות התחברות. נסה שוב מאוחר יותר"
+    }
+  },
+  "navigation": {
+    "home": "בית",
+    "dashboard": "לוח בקרה",
+    "profile": "פרופיל",
+    "settings": "הגדרות",
+    "help": "עזרה",
+    "about": "אודות",
+    "contact": "צור קשר",
+    "pricing": "תמחור",
+    "features": "תכונות"
+  },
+  "profile": {
+    "title": "פרופיל",
+    "editProfile": "ערוך פרופיל",
+    "firstName": "שם פרטי",
+    "lastName": "שם משפחה",
+    "bio": "ביוגרפיה",
+    "language": "שפה מועדפת",
+    "timezone": "אזור זמן",
+    "theme": "ערכת נושא",
+    "themeLight": "בהיר",
+    "themeDark": "כהה",
+    "themeAuto": "אוטומטי (מערכת)",
+    "profileUpdated": "הפרופיל עודכן בהצלחה",
+    "errors": {
+      "firstNameRequired": "שם פרטי נדרש",
+      "lastNameRequired": "שם משפחה נדרש",
+      "bioTooLong": "הביוגרפיה חייבת להכיל עד 500 תווים"
+    }
+  },
+  "billing": {
+    "title": "חיוב ומינוי",
+    "currentPlan": "תוכנית נוכחית",
+    "upgradePlan": "שדרג תוכנית",
+    "downgradePlan": "הורד דרגת תוכנית",
+    "cancelSubscription": "בטל מינוי",
+    "renewSubscription": "חדש מינוי",
+    "paymentMethod": "אמצעי תשלום",
+    "updatePaymentMethod": "עדכן אמצעי תשלום",
+    "billingHistory": "היסטוריית חיובים",
+    "nextBillingDate": "תאריך חיוב הבא",
+    "amount": "סכום",
+    "status": "סטטוס",
+    "invoice": "חשבונית",
+    "downloadInvoice": "הורד חשבונית",
+    "plans": {
+      "free": "חינם",
+      "basic": "בסיסי",
+      "pro": "מקצועי",
+      "enterprise": "ארגוני"
+    },
+    "status": {
+      "active": "פעיל",
+      "canceled": "מבוטל",
+      "pastDue": "באיחור",
+      "trialing": "תקופת ניסיון",
+      "incomplete": "לא הושלם"
+    },
+    "confirmCancel": "האם אתה בטוח שברצונך לבטל את המינוי?",
+    "subscriptionUpdated": "המינוי עודכן בהצלחה",
+    "paymentMethodUpdated": "אמצעי התשלום עודכן בהצלחה",
+    "errors": {
+      "paymentFailed": "התשלום נכשל. אנא עדכן את אמצעי התשלום",
+      "cardDeclined": "הכרטיס נדחה",
+      "insufficientFunds": "אין מספיק כסף",
+      "invalidCard": "מספר כרטיס לא תקין"
+    }
+  },
+  "chat": {
+    "title": "עוזר AI",
+    "newConversation": "שיחה חדשה",
+    "typeMessage": "הקלד הודעה...",
+    "send": "שלח",
+    "conversations": "שיחות",
+    "noConversations": "אין שיחות עדיין",
+    "thinking": "חושב...",
+    "regenerateResponse": "צור תשובה מחדש",
+    "copyResponse": "העתק תשובה",
+    "clearConversation": "נקה שיחה",
+    "deleteConversation": "מחק שיחה",
+    "confirmDelete": "האם אתה בטוח שברצונך למחוק שיחה זו?",
+    "errors": {
+      "messageFailed": "שליחת ההודעה נכשלה",
+      "loadFailed": "טעינת השיחה נכשלה",
+      "rateLimitExceeded": "יותר מדי הודעות. אנא האט קצת"
+    }
+  },
+  "notifications": {
+    "title": "התראות",
+    "markAllRead": "סמן הכל כנקרא",
+    "noNotifications": "אין התראות",
+    "enable": "הפעל התראות",
+    "disable": "כבה התראות",
+    "settings": "הגדרות התראות",
+    "types": {
+      "system": "מערכת",
+      "billing": "חיוב",
+      "chat": "צ'אט",
+      "updates": "עדכונים"
+    },
+    "errors": {
+      "permissionDenied": "הרשאת התראות נדחתה",
+      "notSupported": "התראות אינן נתמכות בדפדפן זה"
+    }
+  },
+  "abTesting": {
+    "title": "בדיקות A/B",
+    "experiments": "ניסויים",
+    "createExperiment": "צור ניסוי",
+    "experimentName": "שם הניסוי",
+    "variants": "וריאציות",
+    "metrics": "מדדים",
+    "status": "סטטוס",
+    "results": "תוצאות",
+    "winner": "מנצח",
+    "conversionRate": "שיעור המרה",
+    "sampleSize": "גודל מדגם",
+    "confidence": "רמת ביטחון",
+    "status": {
+      "draft": "טיוטה",
+      "running": "פועל",
+      "paused": "מושהה",
+      "completed": "הושלם"
+    }
+  },
+  "errors": {
+    "generic": "משהו השתבש",
+    "notFound": "הדף לא נמצא",
+    "unauthorized": "גישה לא מורשית",
+    "forbidden": "גישה אסורה",
+    "serverError": "שגיאת שרת. נסה שוב מאוחר יותר",
+    "networkError": "שגיאת רשת. בדוק את החיבור שלך",
+    "validationError": "תקן את השגיאות ונסה שוב",
+    "sessionExpired": "פג תוקף ההפעלה. התחבר שוב",
+    "tryAgain": "נסה שוב",
+    "goHome": "חזור לדף הבית"
+  },
+  "validation": {
+    "required": "שדה חובה",
+    "invalidEmail": "כתובת דוא\"ל לא תקינה",
+    "invalidUrl": "כתובת URL לא תקינה",
+    "minLength": "חייב להכיל לפחות {{min}} תווים",
+    "maxLength": "חייב להכיל עד {{max}} תווים",
+    "minValue": "חייב להיות לפחות {{min}}",
+    "maxValue": "חייב להיות עד {{max}}",
+    "mustMatch": "השדות חייבים להתאים",
+    "invalidFormat": "פורמט לא תקין"
+  },
+  "accessibility": {
+    "skipToContent": "דלג לתוכן הראשי",
+    "openMenu": "פתח תפריט",
+    "closeMenu": "סגור תפריט",
+    "toggleTheme": "החלף ערכת נושא",
+    "changeLanguage": "שנה שפה",
+    "sortBy": "מיין לפי",
+    "filterBy": "סנן לפי"
+  },
+  "time": {
+    "justNow": "ממש עכשיו",
+    "minutesAgo": "לפני דקה",
+    "minutesAgo_plural": "לפני {{count}} דקות",
+    "hoursAgo": "לפני שעה",
+    "hoursAgo_plural": "לפני {{count}} שעות",
+    "daysAgo": "לפני יום",
+    "daysAgo_plural": "לפני {{count}} ימים",
+    "weeksAgo": "לפני שבוע",
+    "weeksAgo_plural": "לפני {{count}} שבועות",
+    "monthsAgo": "לפני חודש",
+    "monthsAgo_plural": "לפני {{count}} חודשים"
+  }
+}
