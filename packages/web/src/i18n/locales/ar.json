@@ -1,0 +1,229 @@
+{
+  "common": {
+    "appName": "منصة الأعمال المميزة",
+    "welcome": "مرحباً",
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "success": "نجح",
+    "submit": "إرسال",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "create": "إنشاء",
+    "update": "تحديث",
+    "search": "بحث",
+    "filter": "تصفية",
+    "close": "إغلاق",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق",
+    "confirm": "تأكيد",
+    "yes": "نعم",
+    "no": "لا",
+    "retry": "إعادة المحاولة",
+    "refresh": "تحديث",
+    "learnMore": "معرفة المزيد",
+    "getStarted": "ابدأ الآن"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "signup": "إنشاء حساب",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "resetPassword": "إعادة تعيين كلمة المرور",
+    "changePassword": "تغيير كلمة المرور",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "rememberMe": "تذكرني لمدة 30 يوماً",
+    "dontHaveAccount": "ليس لديك حساب؟",
+    "alreadyHaveAccount": "لديك حساب بالفعل؟",
+    "loginSuccess": "تم تسجيل الدخول بنجاح!",
+    "logoutSuccess": "تم تسجيل الخروج بنجاح",
+    "signupSuccess": "تم إنشاء الحساب بنجاح!",
+    "passwordResetSent": "تم إرسال بريد إلكتروني لإعادة تعيين كلمة المرور",
+    "passwordChanged": "تم تغيير كلمة المرور بنجاح",
+    "errors": {
+      "invalidEmail": "عنوان البريد الإلكتروني غير صالح",
+      "invalidCredentials": "البريد الإلكتروني أو كلمة المرور غير صحيحة",
+      "emailRequired": "البريد الإلكتروني مطلوب",
+      "passwordRequired": "كلمة المرور مطلوبة",
+      "passwordTooShort": "يجب أن تحتوي كلمة المرور على 8 أحرف على الأقل",
+      "passwordsDoNotMatch": "كلمات المرور غير متطابقة",
+      "emailAlreadyExists": "يوجد حساب بهذا البريد الإلكتروني بالفعل",
+      "accountNotFound": "الحساب غير موجود",
+      "tooManyAttempts": "عدد كبير جداً من محاولات تسجيل الدخول. يرجى المحاولة لاحقاً"
+    }
+  },
+  "navigation": {
+    "home": "الرئيسية",
+    "dashboard": "لوحة التحكم",
+    "profile": "الملف الشخصي",
+    "settings": "الإعدادات",
+    "help": "المساعدة",
+    "about": "حول",
+    "contact": "اتصل بنا",
+    "pricing": "التسعير",
+    "features": "المميزات"
+  },
+  "profile": {
+    "title": "الملف الشخصي",
+    "editProfile": "تعديل الملف الشخصي",
+    "firstName": "الاسم الأول",
+    "lastName": "اسم العائلة",
+    "bio": "السيرة الذاتية",
+    "language": "اللغة المفضلة",
+    "timezone": "المنطقة الزمنية",
+    "theme": "نمط المظهر",
+    "themeLight": "فاتح",
+    "themeDark": "داكن",
+    "themeAuto": "تلقائي (النظام)",
+    "profileUpdated": "تم تحديث الملف الشخصي بنجاح",
+    "errors": {
+      "firstNameRequired": "الاسم الأول مطلوب",
+      "lastNameRequired": "اسم العائلة مطلوب",
+      "bioTooLong": "يجب أن تحتوي السيرة الذاتية على 500 حرف كحد أقصى"
+    }
+  },
+  "billing": {
+    "title": "الفواتير والاشتراك",
+    "currentPlan": "الخطة الحالية",
+    "upgradePlan": "ترقية الخطة",
+    "downgradePlan": "تخفيض الخطة",
+    "cancelSubscription": "إلغاء الاشتراك",
+    "renewSubscription": "تجديد الاشتراك",
+    "paymentMethod": "طريقة الدفع",
+    "updatePaymentMethod": "تحديث طريقة الدفع",
+    "billingHistory": "سجل الفواتير",
+    "nextBillingDate": "تاريخ الفاتورة التالية",
+    "amount": "المبلغ",
+    "status": "الحالة",
+    "invoice": "فاتورة",
+    "downloadInvoice": "تحميل الفاتورة",
+    "plans": {
+      "free": "مجاني",
+      "basic": "أساسي",
+      "pro": "احترافي",
+      "enterprise": "مؤسسي"
+    },
+    "status": {
+      "active": "نشط",
+      "canceled": "ملغى",
+      "pastDue": "متأخر",
+      "trialing": "تجريبي",
+      "incomplete": "غير مكتمل"
+    },
+    "confirmCancel": "هل أنت متأكد من إلغاء اشتراكك؟",
+    "subscriptionUpdated": "تم تحديث الاشتراك بنجاح",
+    "paymentMethodUpdated": "تم تحديث طريقة الدفع بنجاح",
+    "errors": {
+      "paymentFailed": "فشل الدفع. يرجى تحديث طريقة الدفع",
+      "cardDeclined": "تم رفض البطاقة",
+      "insufficientFunds": "رصيد غير كافٍ",
+      "invalidCard": "رقم البطاقة غير صالح"
+    }
+  },
+  "chat": {
+    "title": "المساعد الذكي",
+    "newConversation": "محادثة جديدة",
+    "typeMessage": "اكتب رسالتك...",
+    "send": "إرسال",
+    "conversations": "المحادثات",
+    "noConversations": "لا توجد محادثات بعد",
+    "thinking": "جاري التفكير...",
+    "regenerateResponse": "إعادة إنشاء الرد",
+    "copyResponse": "نسخ الرد",
+    "clearConversation": "مسح المحادثة",
+    "deleteConversation": "حذف المحادثة",
+    "confirmDelete": "هل أنت متأكد من حذف هذه المحادثة؟",
+    "errors": {
+      "messageFailed": "فشل إرسال الرسالة",
+      "loadFailed": "فشل تحميل المحادثة",
+      "rateLimitExceeded": "عدد كبير جداً من الرسائل. يرجى التباطؤ قليلاً"
+    }
+  },
+  "notifications": {
+    "title": "الإشعارات",
+    "markAllRead": "تحديد الكل كمقروء",
+    "noNotifications": "لا توجد إشعارات",
+    "enable": "تفعيل الإشعارات",
+    "disable": "تعطيل الإشعارات",
+    "settings": "إعدادات الإشعارات",
+    "types": {
+      "system": "النظام",
+      "billing": "الفواتير",
+      "chat": "المحادثة",
+      "updates": "التحديثات"
+    },
+    "errors": {
+      "permissionDenied": "تم رفض إذن الإشعارات",
+      "notSupported": "الإشعارات غير مدعومة في هذا المتصفح"
+    }
+  },
+  "abTesting": {
+    "title": "اختبارات A/B",
+    "experiments": "التجارب",
+    "createExperiment": "إنشاء تجربة",
+    "experimentName": "اسم التجربة",
+    "variants": "المتغيرات",
+    "metrics": "المقاييس",
+    "status": "الحالة",
+    "results": "النتائج",
+    "winner": "الفائز",
+    "conversionRate": "معدل التحويل",
+    "sampleSize": "حجم العينة",
+    "confidence": "مستوى الثقة",
+    "status": {
+      "draft": "مسودة",
+      "running": "قيد التشغيل",
+      "paused": "متوقف مؤقتاً",
+      "completed": "مكتمل"
+    }
+  },
+  "errors": {
+    "generic": "حدث خطأ ما",
+    "notFound": "الصفحة غير موجودة",
+    "unauthorized": "وصول غير مصرح به",
+    "forbidden": "وصول ممنوع",
+    "serverError": "خطأ في الخادم. يرجى المحاولة لاحقاً",
+    "networkError": "خطأ في الشبكة. يرجى التحقق من اتصالك",
+    "validationError": "يرجى إصلاح الأخطاء والمحاولة مرة أخرى",
+    "sessionExpired": "انتهت صلاحية جلستك. يرجى تسجيل الدخول مرة أخرى",
+    "tryAgain": "حاول مرة أخرى",
+    "goHome": "العودة إلى الصفحة الرئيسية"
+  },
+  "validation": {
+    "required": "هذا الحقل مطلوب",
+    "invalidEmail": "عنوان البريد الإلكتروني غير صالح",
+    "invalidUrl": "عنوان URL غير صالح",
+    "minLength": "يجب أن يحتوي على {{min}} أحرف على الأقل",
+    "maxLength": "يجب أن يحتوي على {{max}} أحرف كحد أقصى",
+    "minValue": "يجب أن يكون {{min}} على الأقل",
+    "maxValue": "يجب أن يكون {{max}} كحد أقصى",
+    "mustMatch": "يجب أن تتطابق الحقول",
+    "invalidFormat": "تنسيق غير صالح"
+  },
+  "accessibility": {
+    "skipToContent": "انتقل إلى المحتوى الرئيسي",
+    "openMenu": "فتح القائمة",
+    "closeMenu": "إغلاق القائمة",
+    "toggleTheme": "تبديل المظهر",
+    "changeLanguage": "تغيير اللغة",
+    "sortBy": "ترتيب حسب",
+    "filterBy": "تصفية حسب"
+  },
+  "time": {
+    "justNow": "الآن",
+    "minutesAgo": "منذ دقيقة",
+    "minutesAgo_plural": "منذ {{count}} دقائق",
+    "hoursAgo": "منذ ساعة",
+    "hoursAgo_plural": "منذ {{count}} ساعات",
+    "daysAgo": "منذ يوم",
+    "daysAgo_plural": "منذ {{count}} أيام",
+    "weeksAgo": "منذ أسبوع",
+    "weeksAgo_plural": "منذ {{count}} أسابيع",
+    "monthsAgo": "منذ شهر",
+    "monthsAgo_plural": "منذ {{count}} شهور"
+  }
+}

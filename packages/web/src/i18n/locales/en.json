@@ -1,0 +1,229 @@
+{
+  "common": {
+    "appName": "Premium Business Platform",
+    "welcome": "Welcome",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "update": "Update",
+    "search": "Search",
+    "filter": "Filter",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "retry": "Retry",
+    "refresh": "Refresh",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started"
+  },
+  "auth": {
+    "login": "Log In",
+    "logout": "Log Out",
+    "signup": "Sign Up",
+    "forgotPassword": "Forgot Password?",
+    "resetPassword": "Reset Password",
+    "changePassword": "Change Password",
+    "email": "Email Address",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "rememberMe": "Remember me for 30 days",
+    "dontHaveAccount": "Don't have an account?",
+    "alreadyHaveAccount": "Already have an account?",
+    "loginSuccess": "Successfully logged in!",
+    "logoutSuccess": "Successfully logged out",
+    "signupSuccess": "Account created successfully!",
+    "passwordResetSent": "Password reset email sent",
+    "passwordChanged": "Password changed successfully",
+    "errors": {
+      "invalidEmail": "Invalid email address",
+      "invalidCredentials": "Invalid email or password",
+      "emailRequired": "Email is required",
+      "passwordRequired": "Password is required",
+      "passwordTooShort": "Password must be at least 8 characters",
+      "passwordsDoNotMatch": "Passwords do not match",
+      "emailAlreadyExists": "An account with this email already exists",
+      "accountNotFound": "Account not found",
+      "tooManyAttempts": "Too many login attempts. Please try again later"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "settings": "Settings",
+    "help": "Help",
+    "about": "About",
+    "contact": "Contact",
+    "pricing": "Pricing",
+    "features": "Features"
+  },
+  "profile": {
+    "title": "Profile",
+    "editProfile": "Edit Profile",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "bio": "Biography",
+    "language": "Preferred Language",
+    "timezone": "Timezone",
+    "theme": "Theme Preference",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeAuto": "Auto (System)",
+    "profileUpdated": "Profile updated successfully",
+    "errors": {
+      "firstNameRequired": "First name is required",
+      "lastNameRequired": "Last name is required",
+      "bioTooLong": "Biography must be at most 500 characters"
+    }
+  },
+  "billing": {
+    "title": "Billing & Subscription",
+    "currentPlan": "Current Plan",
+    "upgradePlan": "Upgrade Plan",
+    "downgradePlan": "Downgrade Plan",
+    "cancelSubscription": "Cancel Subscription",
+    "renewSubscription": "Renew Subscription",
+    "paymentMethod": "Payment Method",
+    "updatePaymentMethod": "Update Payment Method",
+    "billingHistory": "Billing History",
+    "nextBillingDate": "Next Billing Date",
+    "amount": "Amount",
+    "status": "Status",
+    "invoice": "Invoice",
+    "downloadInvoice": "Download Invoice",
+    "plans": {
+      "free": "Free",
+      "basic": "Basic",
+      "pro": "Professional",
+      "enterprise": "Enterprise"
+    },
+    "status": {
+      "active": "Active",
+      "canceled": "Canceled",
+      "pastDue": "Past Due",
+      "trialing": "Trial",
+      "incomplete": "Incomplete"
+    },
+    "confirmCancel": "Are you sure you want to cancel your subscription?",
+    "subscriptionUpdated": "Subscription updated successfully",
+    "paymentMethodUpdated": "Payment method updated successfully",
+    "errors": {
+      "paymentFailed": "Payment failed. Please update your payment method",
+      "cardDeclined": "Your card was declined",
+      "insufficientFunds": "Insufficient funds",
+      "invalidCard": "Invalid card number"
+    }
+  },
+  "chat": {
+    "title": "AI Assistant",
+    "newConversation": "New Conversation",
+    "typeMessage": "Type your message...",
+    "send": "Send",
+    "conversations": "Conversations",
+    "noConversations": "No conversations yet",
+    "thinking": "Thinking...",
+    "regenerateResponse": "Regenerate Response",
+    "copyResponse": "Copy Response",
+    "clearConversation": "Clear Conversation",
+    "deleteConversation": "Delete Conversation",
+    "confirmDelete": "Are you sure you want to delete this conversation?",
+    "errors": {
+      "messageFailed": "Failed to send message",
+      "loadFailed": "Failed to load conversation",
+      "rateLimitExceeded": "Too many messages. Please slow down"
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "markAllRead": "Mark All as Read",
+    "noNotifications": "No notifications",
+    "enable": "Enable Notifications",
+    "disable": "Disable Notifications",
+    "settings": "Notification Settings",
+    "types": {
+      "system": "System",
+      "billing": "Billing",
+      "chat": "Chat",
+      "updates": "Updates"
+    },
+    "errors": {
+      "permissionDenied": "Notification permission denied",
+      "notSupported": "Notifications are not supported in this browser"
+    }
+  },
+  "abTesting": {
+    "title": "A/B Testing",
+    "experiments": "Experiments",
+    "createExperiment": "Create Experiment",
+    "experimentName": "Experiment Name",
+    "variants": "Variants",
+    "metrics": "Metrics",
+    "status": "Status",
+    "results": "Results",
+    "winner": "Winner",
+    "conversionRate": "Conversion Rate",
+    "sampleSize": "Sample Size",
+    "confidence": "Confidence Level",
+    "status": {
+      "draft": "Draft",
+      "running": "Running",
+      "paused": "Paused",
+      "completed": "Completed"
+    }
+  },
+  "errors": {
+    "generic": "Something went wrong",
+    "notFound": "Page not found",
+    "unauthorized": "Unauthorized access",
+    "forbidden": "Access forbidden",
+    "serverError": "Server error. Please try again later",
+    "networkError": "Network error. Please check your connection",
+    "validationError": "Please fix the errors and try again",
+    "sessionExpired": "Your session has expired. Please log in again",
+    "tryAgain": "Try Again",
+    "goHome": "Go to Home"
+  },
+  "validation": {
+    "required": "This field is required",
+    "invalidEmail": "Invalid email address",
+    "invalidUrl": "Invalid URL",
+    "minLength": "Must be at least {{min}} characters",
+    "maxLength": "Must be at most {{max}} characters",
+    "minValue": "Must be at least {{min}}",
+    "maxValue": "Must be at most {{max}}",
+    "mustMatch": "Fields must match",
+    "invalidFormat": "Invalid format"
+  },
+  "accessibility": {
+    "skipToContent": "Skip to main content",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "toggleTheme": "Toggle theme",
+    "changeLanguage": "Change language",
+    "sortBy": "Sort by",
+    "filterBy": "Filter by"
+  },
+  "time": {
+    "justNow": "Just now",
+    "minutesAgo": "{{count}} minute ago",
+    "minutesAgo_plural": "{{count}} minutes ago",
+    "hoursAgo": "{{count}} hour ago",
+    "hoursAgo_plural": "{{count}} hours ago",
+    "daysAgo": "{{count}} day ago",
+    "daysAgo_plural": "{{count}} days ago",
+    "weeksAgo": "{{count}} week ago",
+    "weeksAgo_plural": "{{count}} weeks ago",
+    "monthsAgo": "{{count}} month ago",
+    "monthsAgo_plural": "{{count}} months ago"
+  }
+}

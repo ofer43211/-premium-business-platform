@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "lib": ["ES2021", "DOM", "DOM.Iterable"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "checkJs": false,
+    "outDir": "./dist",
+    "rootDir": "./",
+    "removeComments": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "skipLibCheck": true,
+    "jsx": "react-jsx",
+    "types": ["jest", "node"],
+    "baseUrl": ".",
+    "paths": {
+      "@premium-platform/web/*": ["packages/web/src/*"],
+      "@premium-platform/mobile/*": ["packages/mobile/src/*"],
+      "@premium-platform/api/*": ["packages/api/src/*"],
+      "@premium-platform/shared/*": ["packages/shared/src/*"]
+    }
+  },
+  "include": ["packages/**/*"],
+  "exclude": ["node_modules", "dist", "build", "coverage", "**/node_modules"]
+}

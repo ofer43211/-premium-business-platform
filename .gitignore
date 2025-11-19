@@ -134,3 +134,20 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# Playwright
+test-results/
+playwright-report/
+playwright/.cache/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo

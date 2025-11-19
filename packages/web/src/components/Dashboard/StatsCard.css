@@ -1,0 +1,103 @@
+/**
+ * StatsCard Component Styles
+ */
+
+.stats-card-content {
+  display: flex;
+  gap: var(--spacing-md);
+  align-items: flex-start;
+}
+
+.stats-card-icon {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-md);
+  background: var(--color-background-secondary);
+  font-size: 24px;
+}
+
+.stats-card-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.stats-card-title {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin: 0 0 var(--spacing-xs);
+  font-weight: var(--font-weight-medium);
+}
+
+.stats-card-value-container {
+  display: flex;
+  align-items: baseline;
+  gap: var(--spacing-sm);
+  margin: 0 0 var(--spacing-xs);
+}
+
+.stats-card-value {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+.stats-card-change {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+}
+
+.stats-card-change-up {
+  color: var(--color-success);
+  background: var(--color-success-light);
+}
+
+.stats-card-change-down {
+  color: var(--color-error);
+  background: var(--color-error-light);
+}
+
+.stats-card-change-neutral {
+  color: var(--color-text-secondary);
+  background: var(--color-background-secondary);
+}
+
+.stats-card-change-icon {
+  font-size: 14px;
+}
+
+.stats-card-change-label {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+/* Variants */
+.stats-card-primary .stats-card-icon {
+  background: var(--color-primary-light);
+  color: var(--color-primary);
+}
+
+.stats-card-success .stats-card-icon {
+  background: var(--color-success-light);
+  color: var(--color-success);
+}
+
+.stats-card-warning .stats-card-icon {
+  background: var(--color-warning-light);
+  color: var(--color-warning);
+}
+
+.stats-card-danger .stats-card-icon {
+  background: var(--color-error-light);
+  color: var(--color-error);
+}
